@@ -18,5 +18,23 @@ De plus, avec l’utilisation croissante de l’IA dans nos prises de décisions
 
 Ainsi, les sites internet d’analyse de compositions de produits cosmétiques existants sont déjà plus sobres que ce que les gens utilisent pour se renseigner sur les produits à acheter (Chatbot, magazines en ligne, vidéos…).
 
+## Scénarios d’usage et impacts
+Nous formulons l’hypothèse que l’utilisateur.rice utilise l’outil principalement pendant l’achat en ligne afin de vérifier le produit ou comparer entre deux produits, ou bien l’utilisation se fait après achat pour confirmer la composition. 
+
+Pour cette raison, nous prenons en compte le cas de scénario de consultation d’un produit mais aussi nous prenons en compte le cas de scénario de la consultation d’un ingrédient spécifique dans une démarche de recherche d'information précise (effets indésirables spécifiques à un ingrédient).
+
+### Scénario : “Consulter la composition d’un produit”
+- L’utilisateur.rice se connecte au site internet et accepté les conditions générales
+- Iel rentre le produit et/ou sa composition
+- Iel consulte l’impact et les explications
+- Iel retourne sur la page d’accueil
+  
+### Scénario : “Consulter un ingrédient”
+- L’utilisateur.rice se rend sur le site et consulte la liste des ingrédients
+- Iel choisit un ingrédient et lit les impacts et l’explication
+- Iel retourne sur la liste des ingrédients
+- Iel choisit un nouvel ingrédient et lit l’ensemble de la page
+
+
 
 
