@@ -35,6 +35,30 @@ Pour cette raison, nous prenons en compte le cas de scénario de consultation d�
 - Iel retourne sur la liste des ingrédients
 - Iel choisit un nouvel ingrédient et lit l’ensemble de la page
 
+## Impact de l'exécution des scénarios auprès de différents services concurrents
+L'EcoIndex d'une page (de A à G) est calculé (sources : EcoIndex, Octo, GreenIT) en fonction du positionnement de cette page parmi les pages mondiales concernant :
 
+- le nombre de requêtes lancées,
+- le poids des téléchargements,
+- le nombre d'éléments du document.
+Nous avons choisi de comparer l'impact des scénarios sur les services de similaires à notre idée à titre de comporaison. Nous avons observés que la plupart des sites répondait à un parcours ou l'autre et peu souvent les deux.
 
+| Service | Score (sur 100) | Classe | Détail des mesures |
+| --- | --- | --- | --- |
+| Open Beauty Facts | 49 | D 🟧 | [...](benchmark/Open_Beauty_Facts/ecoindex-environmental-statement.md) |
+| Skinsort | 17 | F 🟪 | [...](benchmark/Skinsort/ecoindex-environmental-statement.md) |
+| INCI Beauty | 60 | C 🟨 | [...](benchmark/INCI_Beauty/ecoindex-environmental-statement.md) |
+| Conscious Bunny | 53 | D 🟧 | [...](benchmark/Conscious_Bunny/ecoindex-environmental-statement.md) |
+
+*Tab.1 : Mesure de l'EcoIndex moyen des services concurrents (benchmark du 05/10/2026).*
+
+Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex très faibles pour la plupart (E ou F) et médiocres pour certains (D).
+
+Dans le détail, les pages les plus mal classées sont celles qui incluent :
+
+- une vidéo,
+- des traqueurs en très grand nombre (pour la revente de données de consultation à des tiers),
+- des publicités en grand nombre
+
+## Modèle Economique
 

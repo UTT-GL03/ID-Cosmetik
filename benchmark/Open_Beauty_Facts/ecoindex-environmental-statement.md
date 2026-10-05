@@ -16,8 +16,8 @@ Nous utilisons le référentiel [EcoIndex](https://www.ecoindex.fr/) proposé pa
 2. **Consommation d'eau et émission de GES liées au chargement de la page**. Cet indicateur quantifie la consommation d'eau douce (cls) et l'émission de GES (gCO2e) liées au chargement d'une page web.
 
 À des fins de synthèse, quatre types de données sont représentées :
-1. Niveau d'écoconception pour les 5 pages les plus visitées du site web
-2. Niveau d'écoconception pour 5 parcours utilisateurs type du site web
+1. Niveau d'écoconception pour les pages les plus visitées du site web
+2. Niveau d'écoconception pour 2 parcours utilisateurs type du site web
 3. Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée au chargement d'une page web pour 1 utilisateur, et rapportée à 1 000 utilisateurs.
 4. Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée à l'exécution d'un parcours pour 1 utilisateur, et rapportée à 1 000 utilisateurs.
 
@@ -131,4 +131,4 @@ Vous êtes un professionnel du numérique et vous souhaitez réduire l’impact 
 * [En savoir plus sur le référentiel EcoIndex](https://www.ecoindex.fr/comment-ca-marche/)
 * [Accéder au site web EcoIndex](https://www.ecoindex.fr/)
 
-_*Moyenne de l’impact environnemental des 5 pages les plus visitées ce site web._
+_*Moyenne de l’impact environnemental des pages les plus visitées ce site web._
