@@ -26,12 +26,15 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 ## Evaluation de l'impact des pages les plus visitées du site
 
 ### Page 1 : Accueil
+https://incibeauty.com/
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
 |Accueil|D|46.21|3.11|2.08|73|19|1062|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.24 (soit 4 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.02 (soit un trajet de 10 kms en voiture à énergie thermique).
+
+### Page 2 : Liste des produits
 
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
