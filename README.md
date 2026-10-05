@@ -56,7 +56,6 @@ Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes
 
 Dans le détail, les pages les plus mal classées sont celles qui incluent :
 
-- une vidéo,
 - des traqueurs en très grand nombre (pour la revente de données de consultation à des tiers),
 - des publicités en grand nombre
 
