@@ -44,7 +44,7 @@ L'EcoIndex d'une page (de A à G) est calculé (sources : EcoIndex, Octo, GreenI
 Nous avons choisi de comparer l'impact des scénarios sur les services de similaires à notre idée à titre de comporaison. Nous avons observés que la plupart des sites répondait à un parcours ou l'autre et peu souvent les deux.
 
 | Service | Score (sur 100) | Classe | Détail des mesures |
-| --- | --- | --- | --- |
+| --- | ---: | :---: | --- |
 | Open Beauty Facts | 49 | D 🟧 | [...](benchmark/Open_Beauty_Facts/ecoindex-environmental-statement.md) |
 | Skinsort | 17 | F 🟪 | [...](benchmark/Skinsort/ecoindex-environmental-statement.md) |
 | INCI Beauty | 60 | C 🟨 | [...](benchmark/INCI_Beauty/ecoindex-environmental-statement.md) |
@@ -61,3 +61,9 @@ Dans le détail, les pages les plus mal classées sont celles qui incluent :
 
 ## Modèle Economique
 
+| Service | Visiteur anonyme | Abonné |
+| --- | --- | --- | 
+| Open Beauty Facts | - Incitation au don (open-source) <br> | - Incitation au don |
+| Skinsort | - Publicités (Annonces Google) | - Freemium (stop-pub, trackers personnalisés, ...) |
+| INCI Beauty | - Publicités (Annonces Google) <br> - Publicités (référencement dans les recherches) | Pour les professionnels : <br> - Abonnement pour l'interface INCI pro <br> - Crédit publicitaires <br> Pour les particuliers : <br> - Freemium (stop-pub, mode hors-ligne, ...)|
+| Conscious Bunny | - Publicités (Annonces Google) |  |
