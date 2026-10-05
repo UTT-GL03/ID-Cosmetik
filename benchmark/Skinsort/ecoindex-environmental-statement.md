@@ -3,10 +3,10 @@
 Mesure effectuée le Sun Oct 05 2026.
 
 ## Niveau d’écoconception du site web
-![Note E](https://raw.githubusercontent.com/cnumr/lighthouse-plugin-ecoindex/main/assets/Note-E.webp)
-* Note Ecoindex : **33/100**
-* Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) : **35.10 litres, (soit 4 packs d'eau minérale).***
-* Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : **2.34 kilos CO2e (soit un trajet de 11 kms en voiture à énergie thermique).***
+**Note F**
+* Note Ecoindex : **17/100**
+* Consommation d’eau moyenne rapportée à 1 000 utilisateurs (en litres) : **39.91 litres, (soit 5 packs d’eau minérale).***
+* Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : **2.66 kilos CO2e (soit un trajet de 14 kms en voiture à énergie thermique).***
 
 ## Méthode d'évaluation
 Comme toute production numérique, ce site web a un impact environnemental que nous vous présentons sur cette page à l’aide d’indicateurs standardisés.
@@ -23,27 +23,32 @@ Nous utilisons le référentiel [EcoIndex](https://www.ecoindex.fr/) proposé pa
 
 L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 
-## Evaluation de l'impact des 5 pages les plus visitées du site
-### Page 1 : XXXXX
+## Evaluation de l'impact des pages les plus visitées du site
 
-|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
-|---|---|---|---|---|---|---|
+### Page 1 : Accueil
+|Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
+|---|---|---|---|---|---|---|---|
+|Accueil|D|40.10|3.30|2.20|92|846|955|
 
-
-* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 41.90 (soit 5 packs d'eau minérale).
-* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.80 (soit un trajet de 13 kms en voiture à énergie thermique).
+* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.24 (soit 4 packs d'eau minérale).
+* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.02 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
 ### Parcours 1 : Consulter la composition d’un produit
-* **Objectif du parcours** : Trouver la composition d'un produit recherché
+* **Objectif du parcours** : Trouver la composition d’un produit recherché
 * **Parcours cible** : Accueil > recherche > Liste des résultats > Page précise > Retour > Autre page précise
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
+|Accueil (chargement)|D|40.10|3.30|2.20|92|846|955|
+|Accueil (rechargement)|G|8.73|4.24|2.83|325|4633|1826|
+|Réseau publicitaire (adnxs)|G|8.43|4.25|2.83|306|2813|3808|
+|Réseau publicitaire (adnxs)|G|8.55|4.24|2.83|509|6888|1693|
+|Réseau publicitaire (mediavine)|F|15.09|4.05|2.70|295|1024|2332|
 
-* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 34.33 (soit 4 packs d'eau minérale).
-* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.29 (soit un trajet de 11 kms en voiture à énergie thermique).
+* Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 40.16 (soit 5 packs d’eau minérale).
+* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68 (soit un trajet de 14 kms en voiture à énergie thermique).
 
 ### Parcours 2 : Consulter un ingrédient
 * **Objectif du parcours** : Consulter les effets d'un ingrédient précis
@@ -51,10 +56,12 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
+|Analyseur d'ingrédients|F|24.33|3.77|2.51|180|3924|862|
+|Page d'analyse|E|25.86|3.72|2.48|84|2237|1840|
+|Page d'analyse (avec pubs)|G|4.80|4.36|2.90|706|8749|2713|
 
-
-* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.80 (soit 4 packs d'eau minérale).
-* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.26 (soit un trajet de 10 kms en voiture à énergie thermique).
+* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.50 (soit 5 packs d'eau minérale).
+* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63 (soit un trajet de 14 kms en voiture à énergie thermique).
 
 ## L'écoconception
 
