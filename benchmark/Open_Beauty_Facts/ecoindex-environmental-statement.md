@@ -26,10 +26,11 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 ## Evaluation de l'impact des pages les plus visitées du site
 
 ### Page 1 : Accueil
-https://incibeauty.com/
+https://fr.openbeautyfacts.org/
+
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|46.21|3.11|2.08|73|19|1062|
+|https://fr.openbeautyfacts.org/|D|46.21|3.11|2.08|73|19|1062|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.24 (soit 4 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.02 (soit un trajet de 10 kms en voiture à énergie thermique).
@@ -44,11 +45,11 @@ https://incibeauty.com/
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|46.21|3.11|2.08|73|19|1062|
-|Liste des résultats (recherche)|D|43.40|3.20|2.13|72|1111|926|
-|Page produit Bourjois|D|53.37|2.90|1.93|67|109|785|
-|Retour|C|65.52|2.53|1.69|0|0|927|
-|Page produit Kiko|E|37.45|3.38|2.25|72|61|2060|
+|https://fr.openbeautyfacts.org/|D|46.21|3.11|2.08|73|19|1062|
+|https://fr.openbeautyfacts.org/cgi/search.pl?search_terms=mascara&search_simple=1&action=process|D|43.40|3.20|2.13|72|1111|926|
+|https://fr.openbeautyfacts.org/produit/3614223714490/mascara-volume-reveal-bourjois|D|53.37|2.90|1.93|67|109|785|
+|(URL vide dans le CSV)|C|65.52|2.53|1.69|0|0|927|
+|https://fr.openbeautyfacts.org/produit/8025272610780/luxurious-lashes-waterproof-mascara-kiko-milano|E|37.45|3.38|2.25|72|61|2060|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.24 (soit 4 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.02 (soit un trajet de 10 kms en voiture à énergie thermique).

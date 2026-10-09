@@ -27,9 +27,10 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 ### Page 1 : Ingredients checker analysis
 
 https://consciousbunny.com/clean-ingredients-checker/
-|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
-|---|---|---|---|---|---|---|
-|Accueil|D|53.68|2.89|1.93|41|570|922|
+
+|Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
+|---|---|---|---|---|---|---|---|
+|https://consciousbunny.com/clean-ingredients-checker/|D|53.68|2.89|1.93|41|570|922|
 
 
 * Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 29 (soit  environ 3 packs d’eau minérale).
@@ -43,10 +44,10 @@ https://consciousbunny.com/clean-ingredients-checker/
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|42.67|3.22|2.15|47|2159|1047|
-|Chargement ressource|B|72.76|2.32|1.54|4|0|612|
-|Vérificateur d’ingrédients|D|53.71|2.89|1.93|41|570|921|
-|Vérificateur d’ingrédients (résultats)|D|53.68|2.89|1.93|41|570|922|
+|https://consciousbunny.com/|D|42.67|3.22|2.15|47|2159|1047|
+|https://consciousbunny.com/favicon.ico|B|72.76|2.32|1.54|4|0|612|
+|https://consciousbunny.com/clean-ingredients-checker/|D|53.71|2.89|1.93|41|570|921|
+|https://consciousbunny.com/clean-ingredients-checker/|D|53.68|2.89|1.93|41|570|922|
 
 * Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 28.30 (soit 4 packs d’eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.93 (soit un trajet de 10 kms en voiture à énergie thermique).
@@ -57,10 +58,10 @@ https://consciousbunny.com/clean-ingredients-checker/
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|50.40|2.99|1.99|40|738|1047|
-|Liste des vérificateurs|C|55.12|2.85|1.90|43|2202|612|
-|Vérificateur d'ingrédients|D|46.53|3.10|2.07|41|2208|921|
-|Vérificateur d'ingrédients (résultats)|D|46.30|3.11|2.07|42|2208|922|
+|https://consciousbunny.com/|D|50.40|2.99|1.99|40|738|1047|
+|https://consciousbunny.com/ingredient-checkers/|C|55.12|2.85|1.90|43|2202|612|
+|https://consciousbunny.com/clean-ingredients-checker/|D|46.53|3.10|2.07|41|2208|921|
+|https://consciousbunny.com/clean-ingredients-checker/|D|46.30|3.11|2.07|42|2208|922|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.13 (soit 4 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.01 (soit un trajet de 10 kms en voiture à énergie thermique).

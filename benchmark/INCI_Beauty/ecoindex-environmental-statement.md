@@ -26,9 +26,10 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 ## Evaluation de l'impact d'une des pages les plus visitées du site
 ### Page 1 : Accueil
 https://incibeauty.com/
+
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|C|59.99|2.70|1.80|24|1328|671|
+|https://incibeauty.com/|C|59.99|2.70|1.80|24|1328|671|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 27 (soit 3 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.8 (soit un trajet de 10 kms en voiture à énergie thermique).
@@ -40,10 +41,10 @@ https://incibeauty.com/
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|53.29|2.90|1.93|74|507|671|
-|Recherche (mascara)|C|60.30|2.69|1.79|58|1096|498|
-|Page produit|B|73.26|2.30|1.53|30|2464|208|
-|Retour accueil|C|59.99|2.70|1.80|24|1328|671|
+|https://incibeauty.com/|D|53.29|2.90|1.93|74|507|671|
+|https://incibeauty.com/search/k/mascara|C|60.30|2.69|1.79|58|1096|498|
+|https://incibeauty.com/produit/5484206149872|B|73.26|2.30|1.53|30|2464|208|
+|https://incibeauty.com/|C|59.99|2.70|1.80|24|1328|671|
 
 * Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 26.48 (soit 3 packs d’eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.76 (soit un trajet de 9 kms en voiture à énergie thermique).
@@ -54,10 +55,10 @@ https://incibeauty.com/
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|45.98|3.12|2.08|78|1865|671|
-|Liste des ingrédients|C|57.18|2.78|1.86|38|827|756|
-|Page ingrédient|B|79.34|2.12|1.41|36|734|199|
-|Retour accueil|D|46.91|3.09|2.06|75|1782|671|
+|https://incibeauty.com/|D|45.98|3.12|2.08|78|1865|671|
+|https://incibeauty.com/ingredients|C|57.18|2.78|1.86|38|827|756|
+|https://incibeauty.com/ingredients/4399-peg-2-hydrogenated-tallow-amine|B|79.34|2.12|1.41|36|734|199|
+|https://incibeauty.com/|D|46.91|3.09|2.06|75|1782|671|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 27.78 (soit 3 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.85 (soit un trajet de 10 kms en voiture à énergie thermique).

@@ -28,7 +28,7 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 ### Page 1 : Accueil
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil|D|40.10|3.30|2.20|92|846|955|
+|https://skinsort.com/|D|40.10|3.30|2.20|92|846|955|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.24 (soit 4 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.02 (soit un trajet de 10 kms en voiture à énergie thermique).
@@ -38,14 +38,13 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 ### Parcours 1 : Consulter la composition d’un produit
 * **Objectif du parcours** : Trouver la composition d’un produit recherché
 * **Parcours cible** : Accueil > recherche > Liste des résultats > Page précise > Retour > Autre page précise
-
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Accueil (chargement)|D|40.10|3.30|2.20|92|846|955|
-|Accueil (rechargement)|G|8.73|4.24|2.83|325|4633|1826|
-|Réseau publicitaire (adnxs)|G|8.43|4.25|2.83|306|2813|3808|
-|Réseau publicitaire (adnxs)|G|8.55|4.24|2.83|509|6888|1693|
-|Réseau publicitaire (mediavine)|F|15.09|4.05|2.70|295|1024|2332|
+|https://skinsort.com/|D|40.10|3.30|2.20|92|846|955|
+|https://skinsort.com/|G|8.73|4.24|2.83|325|4633|1826|
+|https://ib.adnxs.com/prebid/setuid?bidder=criteo&gdpr=1&gdpr_consent=CQrP7LAQrP7LAAfFdGFRCyFsAP_gAEPgAAYgLdtR9G9fbSFj8DZ3YbokYIwPxVho6sAhBgCAkmgFCLuELIwEhWESIAyCIiACGBIAODAAIAEgGAgQQUAgIIABLADMYEAQYCBKICBAABIRIgAQCAwKAAAgUAAAgmBGAgQAiASNAZIASMwAgQAGEXAgKAAAAACQAQAIACEAQAEAAAAAQCgAgAAAgAAAAAAAABAIAAAAAQAAACAAAAAAAAAAAAAABAAAAICAACAAAAAAAAAAAiAAAAAAAACC3YAJBoVEABZEAgQCAgBAAAEEQQAECAIAAAgIIAAAgYACQMABVhEgAAAgAAAAAAAAAAAAAACAAIAABAAACAACAQKAAAACAACAAgQAAwAUIAEAAICgAAAEAAAAAARAAAAIAAAAAQAEhAAAAAIAAQIAiAAAAAkAAAAAAAAAABAAAgAAAAAIAAAIAAAAAAAAAQCBAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAEAgAAAAAAAAgAAA.ILdtR9G9fbSFn8DZ3YbokYIwfxVho6sAhBgCAkmgFCLuELIwElWESIAyCIiACGBIAODAAIAEoGAgQQUAgIIABLBDsYEAQYCBKICBAADIRYgAQCAwKAAAgUAAAgmBGAgQAiASNAZIASMwAgQAmEXAgKIAAAACQAQAIACEAQAEAACAAQCgAgAAAgAAAAAAAABAIEAAAAQAAACAAAAAAAAAAAAAABAAAAICAACAAAAAEAAAAQiAAAAAAAAC&gpp=&gpp_sid=&f=i&uid=k-KEG8z6hWkwnbU01mVGsHGZYDR_WpEAuRsTu21A|G|8.43|4.25|2.83|306|2813|3808|
+|https://ib.adnxs.com/prebid/setuid?bidder=criteo&gdpr=1&gdpr_consent=CQrP7LAQrP7LAAfFdGFRCyFsAP_gAEPgAAYgLdtR9G9fbSFj8DZ3YbokYIwPxVho6sAhBgCAkmgFCLuELIwEhWESIAyCIiACGBIAODAAIAEgGAgQQUAgIIABLADMYEAQYCBKICBAABIRIgAQCAwKAAAgUAAAgmBGAgQAiASNAZIASMwAgQAGEXAgKAAAAACQAQAIACEAQAEAAAAAQCgAgAAAgAAAAAAAABAIAAAAAQAAACAAAAAAAAAAAAAABAAAAICAACAAAAAAAAAAAiAAAAAAAACC3YAJBoVEABZEAgQCAgBAAAEEQQAECAIAAAgIIAAAgYACQMABVhEgAAAgAAAAAAAAAAAAAACAAIAABAAACAACAQKAAAACAACAAgQAAwAUIAEAAICgAAAEAAAAAARAAAAIAAAAAQAEhAAAAAIAAQIAiAAAAAkAAAAAAAAAABAAAgAAAAAIAAAIAAAAAAAAAQCBAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAEAgAAAAAAAAgAAA.ILdtR9G9fbSFn8DZ3YbokYIwfxVho6sAhBgCAkmgFCLuELIwElWESIAyCIiACGBIAODAAIAEoGAgQQUAgIIABLBDsYEAQYCBKICBAADIRYgAQCAwKAAAgUAAAgmBGAgQAiASNAZIASMwAgQAmEXAgKIAAAACQAQAIACEAQAEAACAAQCgAgAAAgAAAAAAAABAIEAAAAQAAACAAAAAAAAAAAAAABAAAAICAACAAAAAEAAAAQiAAAAAAAAC&gpp=&gpp_sid=&f=i&uid=k-KEG8z6hWkwnbU01mVGsHGZYDR_WpEAuRsTu21A|G|8.55|4.24|2.83|509|6888|1693|
+|https://exchange.mediavine.com/usersync/redirect?partner=pubmatic&uuid=83e96566-b279-11f1-8000-0123456789ab&s2sVersion=ADT-4132-mfGrouping-c&partnerId=F1E8D4E7-A858-42DA-A0D5-4EFF21AEEA58|F|15.09|4.05|2.70|295|1024|2332|
 
 * Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 40.16 (soit 5 packs d’eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68 (soit un trajet de 14 kms en voiture à énergie thermique).
@@ -56,9 +55,9 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 
 |Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la course (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|---|
-|Analyseur d'ingrédients|F|24.33|3.77|2.51|180|3924|862|
-|Page d'analyse|E|25.86|3.72|2.48|84|2237|1840|
-|Page d'analyse (avec pubs)|G|4.80|4.36|2.90|706|8749|2713|
+|https://skinsort.com/ingredient-analyzer|F|24.33|3.77|2.51|180|3924|862|
+|https://skinsort.com/analysis|E|25.86|3.72|2.48|84|2237|1840|
+|https://skinsort.com/analysis|G|4.80|4.36|2.90|706|8749|2713|
 
 * Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.50 (soit 5 packs d'eau minérale).
 * Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63 (soit un trajet de 14 kms en voiture à énergie thermique).
