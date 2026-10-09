@@ -23,15 +23,15 @@ Nous utilisons le référentiel [EcoIndex](https://www.ecoindex.fr/) proposé pa
 
 L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 
-## Evaluation de l'impact des pages les plus visitées du site
+## Evaluation de l'impact d'une des pages les plus visitées du site
 ### Page 1 : Accueil
+https://incibeauty.com/
+|Page|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
+|---|---|---|---|---|---|---|---|
+|Accueil|C|59.99|2.70|1.80|24|1328|671|
 
-|Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
-|Accueil|D|45.98|3.12|2.08|78|1865|671|
-
-* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 41.90 (soit 5 packs d'eau minérale).
-* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.80 (soit un trajet de 13 kms en voiture à énergie thermique).
-
+* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 27 (soit 3 packs d'eau minérale).
+* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.8 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
 ### Parcours 1 : Consulter la composition d’un produit
