@@ -24,15 +24,16 @@ Nous utilisons le référentiel [EcoIndex](https://www.ecoindex.fr/) proposé pa
 L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 
 ## Evaluation de l'impact des pages les plus visitées du site
-### Page 1 : Accueil
+### Page 1 : Ingredients checker analysis
 
+https://consciousbunny.com/clean-ingredients-checker/
 |Grade|Ecoindex|Eau (cl)|GES (gCO2e)|Nb de requêtes|Taille de la page (Ko)|Taille du DOM|
 |---|---|---|---|---|---|---|
-|Accueil|D|42.67|3.22|2.15|47|2159|1047|
+|Accueil|D|53.68|2.89|1.93|41|570|922|
 
 
-* Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 41.90 (soit 5 packs d'eau minérale).
-* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.80 (soit un trajet de 13 kms en voiture à énergie thermique).
+* Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 29 (soit  environ 3 packs d’eau minérale).
+* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) :  (soit un trajet de 13 kms en voiture à énergie thermique).
 
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
@@ -48,7 +49,7 @@ L'analyse indiquée a été effectuée le Sun Sep 28 2025, elle est susceptible 
 |Vérificateur d’ingrédients (résultats)|D|53.68|2.89|1.93|41|570|922|
 
 * Consommation d’eau rapportée à 1 000 utilisateurs (en litres) : 28.30 (soit 4 packs d’eau minérale).
-* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.89 (soit un trajet de 10 kms en voiture à énergie thermique).
+* Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.93 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ### Parcours 2 : Consulter un ingrédient
 * **Objectif du parcours** : Consulter les effets d'un ingrédient précis
