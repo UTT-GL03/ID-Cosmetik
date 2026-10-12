@@ -68,7 +68,7 @@ Comme nous l'avons vu dans la section précédente, parmi les choix de conceptio
 | Open Beauty Facts | Incitation au don (open source) | Incitation au don |
 | Skinsort | Publicités (Annonces Google), suivi | Freemium (stop-pub, trackers personnalisés…) |
 | INCI Beauty | Publicités (Annonces Google), publicités par référencement dans les recherches, suivi | **Particuliers :** freemium (stop-pub, mode hors-ligne…)<br>**Professionnels :** abonnement à l'interface INCI Pro, crédits publicitaires |
-| Conscious Bunny | Publicités (Annonces Google), suivi | Sans objet |
+| Conscious Bunny | Publicités (Annonces Google), suivi |  |
 
 *Tab. 2 : Offre des services de notation de produits cosmétiques.*
 
@@ -99,7 +99,7 @@ L'étude de l'offre et les calculs nous permettent d'établir que :
 - un modèle par abonnement paraît adapté au financement d'un service de notation mais les taux de conversion du freemium grand public se situent usuellement entre 1 et 5 % (5 870 abonnés représentent environ 295 000 utilisateurs)
 - l'abonnement annuel est préférable à l'abonnement mensuel à revenu égal car la part fixe des frais de paiement représente près de 18 % d'une transaction de 1,50 €
 
-Par conséquent, pour réduire l'impact écologique du service, nous proposons de :
+### Solutions pour notre service : 
 - **renoncer aux publicités gérées par une régie tierce**
 - **renoncer au référencement payant et aux crédits publicitaires vendus aux marques**, afin de préserver l'indépendance de la notation et notre éthique
 - **adopter un modèle fondé principalement sur l'abonnement annuel** (15 €/an, affiché 1,25 €/mois), la consultation des fiches et du score restant gratuite et sans publicité ;
