@@ -1,0 +1,59 @@
+{
+  "results": [
+    {{#repeat min=10 max=30}}
+    {
+      "id": "{{random 1 1000}}",
+      "category": "Produit",
+      "brand": "{{company}}", 
+      "title": "{{lorem min=1 max=3}}",
+      "score": "{{random 1 10}}",
+      "compositionIngredients": [
+        {{#repeat min=1 max=5}}
+        {
+          "id": "{{random 1 1000}}",
+          "title": "{{lorem min=1 max=3}}",
+          "score": "{{random 1 10}}"
+        }
+        {{/repeat}}
+      ]
+    }
+    {{/repeat}},
+    {{#repeat min=10 max=30}}
+    {
+      "id": "{{random 1 1000}}",  
+      "category": "Ingredient",
+      "title": "{{lorem min=1 max=3}}",
+      "score": "{{random 1 10}}"
+    }
+    {{/repeat}},
+  ],
+  "account": [
+    {{#repeat min=1 max=5}}
+    {
+      "id": "{{random 1 1000}}",
+      "name": "{{firstName}} {{lastName}}",
+      "email": "{{email}}",
+      "subscribed_since": "{{date '2020-01-01' '2024-12-31'}}",
+      "next-subscription-renewal": "{{date '2024-01-01' '2024-12-31'}}",
+      "productsOwned": [
+        {{#repeat min=1 max=5}}
+        {
+          "id": "{{random 1 1000}}",
+          "title": "{{lorem min=1 max=3}}",
+          "score": "{{random 1 10}}"
+        }
+        {{/repeat}}
+      ]}
+      {{/repeat}}
+  ],
+  "proof-donation": [
+    {{#repeat min=1 max=5}}
+    {
+      "id": "{{random 1 1000}}",
+      "title": "{{lorem min=1 max=3}}",
+      "amount": "{{random 1 1000}}",
+      "date": "{{date '2020-01-01' '2024-12-31'}}"
+    }
+    {{/repeat}}
+  ]
+}
