@@ -102,6 +102,6 @@ L'étude de l'offre et les calculs nous permettent d'établir que :
 ### Solutions pour notre service : 
 - **renoncer aux publicités gérées par une régie tierce**
 - **renoncer au référencement payant et aux crédits publicitaires vendus aux marques**, afin de préserver l'indépendance de la notation et notre éthique
-- **adopter un modèle fondé principalement sur l'abonnement annuel** (15 €/an, affiché 1,25 €/mois), la consultation des fiches et du score restant gratuite et sans publicité ;
+- **adopter un modèle fondé principalement sur l'abonnement annuel** (15 €/an, affiché 1,25 €/mois), la consultation des fiches et du score restant gratuite et sans publicité ; l'option payante permettrait de sauvegarder les produits scannés, d'importer des photos prises du code-barre pour analyser le produit plutôt que de rechercher le bon produit dans la barre de recherche.
 - **le compléter par une incitation au don** pour ceux qui souhaitent soutenir nos projets.
 
