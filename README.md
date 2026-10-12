@@ -61,9 +61,47 @@ Dans le détail, les pages les plus mal classées sont celles qui incluent :
 
 ## Modèle Economique
 
+Comme nous l'avons vu dans la section précédente, parmi les choix de conception ayant le plus d'impact environnemental, la plupart sont directement liés au modèle économique du service. C'est pourquoi il est nécessaire à ce stade d'analyser le modèle économique des services existants et de définir notre propre modèle, permettant une conception plus frugale.
+
 | Service | Visiteur anonyme | Abonné |
-| --- | --- | --- | 
-| Open Beauty Facts | - Incitation au don (open-source) <br> | - Incitation au don |
-| Skinsort | - Publicités (Annonces Google) | - Freemium (stop-pub, trackers personnalisés, ...) |
-| INCI Beauty | - Publicités (Annonces Google) <br> - Publicités (référencement dans les recherches) | Pour les professionnels : <br> - Abonnement pour l'interface INCI pro <br> - Crédit publicitaires <br> Pour les particuliers : <br> - Freemium (stop-pub, mode hors-ligne, ...)|
-| Conscious Bunny | - Publicités (Annonces Google) |  |
+|---|---|---|
+| Open Beauty Facts | Incitation au don (open source) | Incitation au don |
+| Skinsort | Publicités (Annonces Google), suivi | Freemium (stop-pub, trackers personnalisés…) |
+| INCI Beauty | Publicités (Annonces Google), publicités par référencement dans les recherches, suivi | **Particuliers :** freemium (stop-pub, mode hors-ligne…)<br>**Professionnels :** abonnement à l'interface INCI Pro, crédits publicitaires |
+| Conscious Bunny | Publicités (Annonces Google), suivi | Sans objet |
+
+*Tab. 2 : Offre des services de notation de produits cosmétiques.*
+
+Les offres de service numérique des applications de notation de cosmétiques se sont harmonisées autour d'un modèle dit freemium :
+- un accès gratuit à la consultation des fiches produit, financé par la publicité d'une régie tierce (en pratique, les Annonces Google) ;
+- un accès sans publicité pour les abonnés rajoutant des fonctions de confort (mode hors-ligne, recherche avancée, suivi personnalisé).
+
+INCI Beauty ajoute un côté professionnel avec un abonnement à une interface dédiée aux marques et crédits publicitaires permettant un référencement dans les résultats de recherche. Cette forme de régie intégrée est nettement plus rémunératrice qu'une régie tierce, mais elle fait du service noté un client du service notant, ce qui pose une difficulté de principe éthique.
+Le seul modèle alternatif est celui d'Open Beauty Facts, totalement gratuit et sans publicité, basé sur le don et le bénévolat.
+
+| Source possible de revenus | Montant unitaire | Quantité nécessaire pour financer un salaire ¹ |
+|---|---:|---|
+| Abonnement (particulier) | 15 €/an ² | 5 870 abonnés |
+| Abonnement (professionnel) | 1 500 €/an ³ | 47 clients |
+| Affichage d'une publicité (régie tierce) | 0,00046 € ⁴ | 154 347 826 affichages |
+| Diffusion d'une publicité (régie intégrée) | 10 000 € ⁴ | 7,1 campagnes |
+| Référencement payant dans les résultats | 500 €/mois ³ | 12 marques référencées |
+| Don | 20 € ⁵ | 3 550 donateurs |
+
+*Tab. 3 : Sources de revenus possibles pour un service de notation de produits*
+
+¹ Quantités annuelles. ² Prix de l'abonnement annuel de INCI Beauty qui se situe autour de 1,50 €/mois. ³ Hypothèse, à défaut de tarifs publics. ⁴ Montants repris de l'état de l'art du cours. ⁵ Modèle associatif basé sur Open Beauty Facts.
+
+L'étude de l'offre et les calculs nous permettent d'établir que :
+
+- le volume d'affichages publicitaires nécessaire pour financer un seul salaire est hors de portée d'un service à faible flux utilisateurs (de l'ordre de 25 millions de visites annuelles nécéssaires)
+- la régie intégrée et le référencement payant sont incomparablement plus rémunérateurs mais ils créent un conflit d'intérêt direct avec les marques évaluées 
+- un modèle par abonnement paraît adapté au financement d'un service de notation mais les taux de conversion du freemium grand public se situent usuellement entre 1 et 5 % (5 870 abonnés représentent environ 295 000 utilisateurs)
+- l'abonnement annuel est préférable à l'abonnement mensuel à revenu égal car la part fixe des frais de paiement représente près de 18 % d'une transaction de 1,50 €
+
+Par conséquent, pour réduire l'impact écologique du service, nous proposons de :
+- **renoncer aux publicités gérées par une régie tierce**
+- **renoncer au référencement payant et aux crédits publicitaires vendus aux marques**, afin de préserver l'indépendance de la notation et notre éthique
+- **adopter un modèle fondé principalement sur l'abonnement annuel** (15 €/an, affiché 1,25 €/mois), la consultation des fiches et du score restant gratuite et sans publicité ;
+- **le compléter par une incitation au don** pour ceux qui souhaitent soutenir nos projets.
+
