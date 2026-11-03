@@ -105,3 +105,21 @@ L'étude de l'offre et les calculs nous permettent d'établir que :
 - **adopter un modèle fondé principalement sur l'abonnement annuel** (15 €/an, affiché 1,25 €/mois), la consultation des fiches et du score restant gratuite et sans publicité ; l'option payante permettrait de sauvegarder les produits scannés, d'importer des photos prises du code-barre pour analyser le produit plutôt que de rechercher le bon produit dans la barre de recherche.
 - **le compléter par une incitation au don** pour ceux qui souhaitent soutenir nos projets.
 
+## Maquette de l'interface et échantillon de données
+
+Au vu des différents services comparés, des exigences environnementales exprimées plus haut et des scénarios retenus, nous avons défini pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
+
+Les ressources Web possédant une représentation sur notre application seront de deux types :
+
+- la page "catalogue" des produits cosmétiques/ingrédients (avec une HTTP-URI ayant pour chemin `/`) ou plus spécifiquement la recherche que l'utilisateur.rice fait (ayant pour chemin `/?research={x}`)
+- une page d'un produit ou d'un ingrédient (avec pour chemin `/produit/{id}` ou `/ingredient/{id}`).
+
+Nous avons également pensé à faire une page account (avec un chemin `/account/{slug id}`) et une page don (avec un chemin `/don/{id-preuvedon}`).
+
+<img width="1879" height="1261" alt="IMG_20261103_121951" src="https://github.com/user-attachments/assets/5d15c1d5-401e-46a7-8f71-8e0a47b39543" />
+<img width="2183" height="1765" alt="IMG_20261103_122014" src="https://github.com/user-attachments/assets/697a54ca-860b-4080-ae6e-4d786cf3e882" />
+
+Fig.1: Maquette de l'interface du prototype : a. page catalogue, b. type de page pour un ingrédient ou un produit.
+
+Nous utilisons des données générées (avec dummy-json).
+
