@@ -121,5 +121,5 @@ Nous avons également pensé à faire une page account (avec un chemin `/account
 
 Fig.1: Maquette de l'interface du prototype : a. page catalogue, b. type de page pour un ingrédient ou un produit.
 
-Nous utilisons des données générées (avec dummy-json).
+Nous utilisons des données générées (avec `dummy-json`). Les données correspondent à la structure des concurrents à savoir pour les produits : nom, marque, score, composition (listes des ingrédients et leur note respectives) et pour les ingrédients : score et nom (voir [modèle de données](https://github.com/UTT-GL03/ID-Cosmetik/blob/main/frontend/sample_data.hbs)).
 
