@@ -123,3 +123,55 @@ Fig.1: Maquette de l'interface du prototype : a. page catalogue, b. type de page
 
 Nous utilisons des données générées (avec `dummy-json`). Les données correspondent à la structure des concurrents à savoir pour les produits : nom, marque, score, composition (listes des ingrédients et leur note respectives) et pour les ingrédients : score et nom (voir [modèle de données](https://github.com/UTT-GL03/ID-Cosmetik/blob/main/frontend/sample_data.hbs)).
 
+## Étape de prototypage : Données chargées de manière statique
+
+Pour ce premier prototype (v1.0.0), nous avons implémenté les deux scénarios retenus (« Consulter la composition d'un produit » et « Consulter un ingrédient ») sur la base de la maquette (cf. Fig.1). Les données sont celles de l'échantillon généré par dummy json, chargées de manière statique avec le code de l'application.
+
+Nous avons choisi TypeScript au lieu du JavaScript pour des raisons de maintenance du code. Les types sont effacés à la compilation et n'ont donc aucun effet sur le poids du bundle. Ils sont regroupés dans `src/types/`, séparés des composants : `donnees.ts` pour le modèle de données (produit, ingrédient, utilisateur) et `composants.ts` pour les propriétés des composants (props). De plus lors de l'intégration des données dynamiques nous pourrons modifier plus rapidement si besoin.
+
+Pour la structure du code, nous avons suivi l'atomic design. Seules les pages accèdent aux données et les composants reçoivent tout par des propriétés typées de `src/types/`. Ce découpage nous permettra de gérer facilement de nouvelles HTTP-URI et de retrouver rapidement chaque composant.
+
+### Page catalogue et acceuil
+
+Pour la mise en forme, nous avons retenu PicoCS. Pico met en forme les éléments HTML sémantiques sans classes à ajouter, et nous n'avons écrit que quelques règles CSS en complément (grille, cartes, pastilles de score).
+
+Conformément à la maquette (cf. Fig.1), chaque carte du catalogue présente une image, le nom et la marque du produit et son score. Pour limiter le poids des pages, nous avons remplacé les images par des carrés vides en CSS (`aspect-ratio: 1`) : aucune image n'est téléchargée. De même, nous n'utilisons aucune police externe, et l'icône d'onglet est vide (`data:,`) pour éviter une requête vers `/favicon.ico`. Si nous ajoutons plus tard des photos de produits, nous devrons mesurer leur coût et les optimiser (format, taille, chargement différé).
+
+Les icônes de loupe et de cœur proviennent de [NextIcons](https://www.nexticons.com) (licence MIT). Nous avons d'abord importé le paquet `@deemlol/next-icons` mais le bundler embarquait 1 900 icônes. Nous avons donc recopié les deux SVG directement dans les composants, pour un rendu identique sans le surpoids des autres icones.
+
+À ce stade, la barre de recherche est placée selon la maquette mais n'est pas fonctionnelle : aucun état n'est encore géré.
+
+
+| Mode           | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
+|----------------|:--------:|:-----------:|:-------------:|:--------:|:----------------------:|
+| développement  |  |   |     |  |             |
+| pré-production |  |   |      |  |             |
+
+__Tab.4__: Évaluation de l'impact du prototype de la page catalogue.
+
+
+### Pages détails de produit et ingrédient
+
+Les fiches produit et ingrédient partagent le même gabarit. Il comporte un lien retour vers le catalogue et le nom de l'élément, puis l'image (placeholder) à gauche et, à droite, le score, la marque et la description. Une fiche produit affiche ensuite toute sa composition, et chaque ingrédient mène à sa propre fiche, qui présente son explication et ses impacts.
+
+Le bouton cœur « ajouter à ma collection » ouvre une popin indiquant qu'il faut être connecté.
+
+Le compte est simulé : `src/assets/utilisateur.ts` décrit un utilisateur statique (connecté, non abonné par défaut) qui conditionne l'accès à la page `/account`, réservée aux abonné·es. Il n'y a pas d'authentification réelle. Pour la même raison, l'étape d'acceptation des conditions générales prévue dans le scénario n'est pas implémentée, et le produit est choisi dans le catalogue plutôt que recherché.
+
+| Étape du scénario                    | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
+|--------------------------------------|:--------:|:-----------:|:-------------:|:--------:|:----------------------:|
+| 1. Consulter le catalogue            |  |   |     |  |             |
+| 2. Consulter la fiche d'un produit   |  |   |     |  |             |
+| 3. Retourner au catalogue            |  |   |     |  |             |
+
+__Tab.5__: Évaluation de l'impact du scénario « Consulter la composition d'un produit » dans le prototype (pré-production).
+
+| Étape du scénario                    | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
+|--------------------------------------|:--------:|:-----------:|:-------------:|:--------:|:----------------------:|
+| 1. Consulter un ingrédient           |  |   |     |  |            |
+| 2. Retourner au catalogue            |  |   |     |  |            |
+| 3. Consulter un autre ingrédient     |  |   |     |  |            |
+
+__Tab.6__: Évaluation de l'impact du scénario « Consulter un ingrédient » dans le prototype (pré-production).
+
+<!-- Analyse à rédiger après les mesures. -->
