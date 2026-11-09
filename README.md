@@ -131,7 +131,7 @@ Nous avons choisi TypeScript au lieu du JavaScript pour des raisons de maintenan
 
 Pour la structure du code, nous avons suivi l'atomic design. Seules les pages accèdent aux données et les composants reçoivent tout par des propriétés typées de `src/types/`. Ce découpage nous permettra de gérer facilement de nouvelles HTTP-URI et de retrouver rapidement chaque composant.
 
-### Page catalogue et acceuil
+### Page catalogue et accueil
 
 Pour la mise en forme, nous avons retenu PicoCS. Pico met en forme les éléments HTML sémantiques sans classes à ajouter, et nous n'avons écrit que quelques règles CSS en complément (grille, cartes, pastilles de score).
 
@@ -144,8 +144,8 @@ Les icônes de loupe et de cœur proviennent de [NextIcons](https://www.nexticon
 
 | Mode           | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
 |----------------|:--------:|:-----------:|:-------------:|:--------:|:----------------------:|
-| développement  |  |   |     |  |             |
-| pré-production |  |   |      |  |             |
+| développement  | 68 C 🟨|  1.64 |  206   | 40  |    5491      |
+| pré-production | 88 A 🟦  | 1.24  |   203   | 3  |        105     |
 
 __Tab.4__: Évaluation de l'impact du prototype de la page catalogue.
 
@@ -160,17 +160,16 @@ Le compte est simulé : `src/assets/utilisateur.ts` décrit un utilisateur stati
 
 | Étape du scénario                    | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
 |--------------------------------------|:--------:|:-----------:|:-------------:|:--------:|:----------------------:|
-| 1. Consulter le catalogue            |  |   |     |  |             |
-| 2. Consulter la fiche d'un produit   |  |   |     |  |             |
-| 3. Retourner au catalogue            |  |   |     |  |             |
+| 1. Consulter le catalogue            | 88 A 🟦  | 1.24  |   203  |  3 |       105      |
+| 2. Consulter la fiche d'un produit   | 91 A 🟦  | 1.17  |  76  | 3 |  105           |
+| 3. Retourner au catalogue            | 88 A 🟦  | 1.24  |   203  |  3 |       105      |
 
 __Tab.5__: Évaluation de l'impact du scénario « Consulter la composition d'un produit » dans le prototype (pré-production).
 
 | Étape du scénario                    | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
 |--------------------------------------|:--------:|:-----------:|:-------------:|:--------:|:----------------------:|
-| 1. Consulter un ingrédient           |  |   |     |  |            |
-| 2. Retourner au catalogue            |  |   |     |  |            |
-| 3. Consulter un autre ingrédient     |  |   |     |  |            |
+| 1. Consulter un ingrédient           | 95 A 🟦  |  1.11 |   39  | 3  |       105     |
+| 2. Retourner au catalogue            | 88 A 🟦  | 1.24  |   203  | 3  | 105|
 
 __Tab.6__: Évaluation de l'impact du scénario « Consulter un ingrédient » dans le prototype (pré-production).
 
