@@ -1,14 +1,22 @@
 import { useParams } from 'react-router-dom'
-import data from '../assets/sample_data.json'
 import ImpactsIngredient from '../components/organisms/ImpactsIngredient'
 import FicheTemplate from '../components/templates/FicheTemplate'
 import type { Ingredient } from '../types'
-
-const ingredients: Ingredient[] = data.ingredients
+import { useEffect, useState } from 'react'
 
 function IngredientDetail() {
   const { id } = useParams()
-  const ingredient = ingredients.find((i) => i.id === Number(id))
+  const [ingredient, setIngredient] = useState<Ingredient | null>(null)
+
+    useEffect(() => {
+    fetch('/sample_data.json')
+      .then(x => x.json())
+      .then(data => {
+        const foundIngredient = data.ingredients.find((i: Ingredient) => i.id === Number(id))
+        setIngredient(foundIngredient as Ingredient)
+      })
+    }, [])
+
   if (!ingredient) return <h2>Ingrédient introuvable</h2>
   return (
     <FicheTemplate

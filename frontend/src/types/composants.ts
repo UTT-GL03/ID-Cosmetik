@@ -33,6 +33,7 @@ export type FicheInfosProps = {
 
 export type CatalogueGridProps = {
   produits: Produit[]
+  ingredients?: Ingredient[]
 }
 
 export type FicheHeaderProps = {
@@ -55,4 +56,12 @@ export type ImpactsIngredientProps = {
 export type FicheTemplateProps = MainFicheProps & {
   titre: string
   children?: ReactNode
+}
+
+export type SearchBarProps = {
+  onSubmit: () => void
+  type: 'Produit' | 'Ingrédient'
+  search: string
+  setType: (type: 'Produit' | 'Ingrédient') => void
+  setSearch: (search: string) => void
 }
