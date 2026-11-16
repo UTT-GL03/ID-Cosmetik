@@ -32,7 +32,7 @@ jobs:
         run: |
           docker compose up --detach
       - name: Wait for frontend
-        uses: docker://hellyow/wait-for-response:1
+        uses: docker://benel/wait-for-response:1
         with:
           args: http://localhost/ 200 30000 500
       - name: Watch frontend initial payload
