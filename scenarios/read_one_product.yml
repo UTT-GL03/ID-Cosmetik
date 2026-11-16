@@ -1,0 +1,24 @@
+# To be used with GreenIT Analysis CLI
+- name: Consulter les fiches produits
+  url: http://localhost/
+  waitForSelector: .catalogue .carte-lien
+  actions:
+    - name: Choisir un produit
+      type: click
+      element: .catalogue > .carte-lien:nth-child(1)
+      pageChange: true
+      waitForSelector: .fiche
+    - name: Lire la fiche produit
+      type: scroll
+    - name: Retourner au catalogue
+      type: click
+      element: .retour
+      pageChange: true
+      waitForSelector: .catalogue .carte-lien
+    - name: Choisir un autre produit
+      type: click
+      element: .catalogue > .carte-lien:nth-child(2)
+      pageChange: true
+      waitForSelector: .fiche
+    - name: Lire l'autre fiche produit
+      type: scroll
