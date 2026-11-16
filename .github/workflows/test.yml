@@ -1,0 +1,39 @@
+name: Test
+on:
+  push:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download sources
+        uses: actions/checkout@v7
+      - name: Set up NodeJS
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install frontend dependencies
+        run: |
+          cd frontend
+          npm install
+      - name: Build frontend
+        run: |
+          cd frontend
+          npm run build
+      - name: Save frontend build for later
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: frontend/dist
+      - name: Start frontend
+        run: |
+          docker compose up --detach
+      - name: Wait for frontend
+        uses: docker://hellyow/wait-for-response:1
+        with:
+          args: http://localhost/ 200 30000 500
+      - name: Watch frontend initial payload
+        run: curl --silent localhost
