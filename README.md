@@ -174,3 +174,21 @@ __Tab.5__: Évaluation de l'impact du scénario « Consulter la composition d'un
 __Tab.6__: Évaluation de l'impact du scénario « Consulter un ingrédient » dans le prototype (pré-production).
 
 <!-- Analyse à rédiger après les mesures. -->
+## Mesures de la consommation énergétique lors du passage à l'échelle
+Maintenant que notre prototype est réaliste en termes de nombre de requêtes, nous pouvons simuler les effets du "passage à l'échelle".
+
+Dans le cas qui nous occupe de la consultation de produits et d'ingrédients, l'augmentation de la quantité des données à traiter viendra de l'augmentation du nombre de produits à afficher dans le catalogue. Des choix de conceptions tel que la virtualisation sont envisagés.
+
+L'augmentation du volume de produit est linéaire : à raison de 25 nouveaux articles par jour, la base de données sera de 3000 produits au bout de 4 mois (et ainsi de suite).
+
+### Évolution de l'EcoIndex lors du passage à l'échelle
+Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, avant et après la simulation du passage à l'échelle retraduisent bien (cf. Tab.7) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
+
+
+| Étape du scénario | EcoIndex | GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko) |
+|---|:---:|:---:|:---:|:---:|:---:|
+| 1. Consulter le catalogue | ~~88 A 🟦~~<br>33 E 🟥 | ~~1,24~~<br>2,34 | ~~203~~<br>18 025 | ~~3~~<br>4 | ~~105~~<br>3 157 |
+| 2. Choisir et lire un produit | ~~91 A 🟦~~<br>77 A 🟦 | ~~1,17~~<br>1,46 | ~~76~~<br>69 | ~~3~~<br>1 | ~~105~~<br>2 797 |
+| 3. Retourner au catalogue | ~~88 A 🟦~~<br>34 E 🟥 | ~~1,24~~<br>2,32 | ~~203~~<br>18 025 | ~~3~~<br>1 | ~~105~~<br>2 797 |
+
+__Tab.7__: Effet du passage à l'échelle sur l'impact du scénario « Consulter une fiche produit » dans le prototype v1.0.1. Première ligne de chaque cellule : avant (20 produits) ; seconde ligne : après (2 000 produits).
