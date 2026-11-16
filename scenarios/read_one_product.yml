@@ -1,5 +1,5 @@
 # To be used with GreenIT Analysis CLI
-- name: Consulter les fiches produits
+- name: Consulter une fiche produit
   url: http://localhost/
   waitForSelector: .catalogue .carte-lien
   actions:
